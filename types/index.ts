@@ -27,6 +27,10 @@ export interface Product {
   length?: string;
   width?: string;
   woodType?: string;
+  carNo?: string;
+  treeNo?: string;
+  cft?: number;
+  tag?: string;
   // Furniture specific
   model?: string;
   material?: string;
